@@ -121,6 +121,21 @@ margin-left: 300px;
     height: 350px;
 }
 
-.my-recipie-section{
+.social-media-section h1{
+font-size: 60px;
+padding-left: 255px;
+}
 
+.social-media-section p{
+    font-size: 25px;
+padding-left: 255px;
+}
+
+.social-media-section {
+  margin-top: 200px;  
+height: 250px;
+width: 1500px;
+margin-left: 200px;
+box-shadow: 5px 5px 20px;
+border-radius: 25px;
 }
