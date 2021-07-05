@@ -1,0 +1,35 @@
+section{
+    display: flex; 
+}
+
+.group-image{
+    height: 900px;
+}
+
+.header-text{
+    margin-left: 200px;
+    margin-top: 150px;
+}
+
+.header-text h1{
+font-size: 80px;
+font-family:'Times New Roman', Times, serif;
+}
+
+.header-text p{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button{
+    padding: 20px;
+    width: 150px;
+    border-radius: 25px;
+    background-image: linear-gradient(#25beff, #0977ca);
+    border: none;
+    color: white;
+}
+
+span{
+    color: #048DF8;
+}
