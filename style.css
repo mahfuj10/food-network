@@ -217,7 +217,8 @@ footer h1 p{
 }
 
 .footer-text{
-    padding-top: 100px;
+    padding-top: 50px;
+    line-height: 60px;
 }
 
 .footer-title{
