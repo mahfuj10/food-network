@@ -1,3 +1,7 @@
+body{
+    padding: 0;
+    margin: 0;
+}
 section{
     display: flex; 
 }
@@ -13,14 +17,14 @@ section{
 
 .header-text h1{
 font-size: 80px;
-font-family:'Times New Roman', Times, serif;
+font-family: 'Times New Roman', Times, serif;
 color: #575757;
 }
 
 .header-text p{
     font-size: 25px;
     line-height: 34px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
 }
 
 button{
@@ -58,12 +62,13 @@ color: #676767;
     line-height: 30px;
     width: 600px;
     text-align: justify;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .person-image{
     height: 600px;
-margin-top: 150px;
-margin-left: 300px;
+    margin-top: 150px;
+    margin-left: 300px;
 }
 
 .main-section{
@@ -93,6 +98,7 @@ margin-left: 300px;
     font-size: 22px;
     line-height: 35px;
     width: 800px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: justify;
 }
 
@@ -114,14 +120,13 @@ margin-left: 300px;
     width: 400px;
     text-align: justify;
     font-size: 22px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     line-height: 34px;
 }
 
 .my-recipie img{
     height: 350px;
 }
-
-
 
 .clent-section-1 img{
     border-radius: 50%;
@@ -137,6 +142,7 @@ padding: 10px;
 
 .clent-section-1 p{
     font-size: 19px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .clent-section-1{
@@ -149,14 +155,25 @@ padding: 10px;
 margin-top: 20px;
 }
 
+.client-image-3{
+    margin-top: 20px;
+}
+
+.client-image-4{
+  margin-top: 45px;
+}
+
 .clients-title-text{
-    color: white;
+    color: whitesmoke;
     text-align: center;
     padding-top: 100px;
+    font-size: 40px;
+ font-family: 'Times New Roman', Times, serif;
+
 }
 
 .background-image{
-    background-image:url(images/background-image.jpg);
+    background-image: url(images/background-image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 550px;
@@ -182,4 +199,31 @@ margin-top: 20px;
     border-radius: 25px;
     margin-top: 220px;
 }
-    
+
+footer p{
+    font-size: 22px;
+}
+
+footer{
+    text-align: center;
+    height: 350px;
+    width: 100%;
+    background-color: #011422;
+    margin-top: 100px;
+}
+
+footer h1 p{
+    margin-top: 100px;
+}
+
+.footer-text{
+    padding-top: 100px;
+}
+
+.footer-title{
+    color: rgb(143, 141, 141);
+}
+
+footer p{
+    color: rgba(148, 146, 146, 0.863);
+}
